@@ -11,7 +11,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 30%;
+  width: 32%;
 }
 
 .mainApp {
@@ -117,32 +117,6 @@ body {
   font-size: 18px;
   margin-top: 15px;
 }
-
-/* FOOTER */
-footer {
-  font-size:
-  margin-top: 25px;
-  text-align: center;
-}
-
-footer h4:nth-child(1) {
-  margin-bottom: 10px;
-}
-
-footer h4:nth-child(2) {
-  margin-top: 10px;
-}
-
-footer h4 a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer h4 a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
 
 /*------------------------------
         MEDIA QUERY
