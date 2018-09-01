@@ -1,9 +1,6 @@
 $("document").ready(function() {
-	var API_KEY = '';
-	var weatherData;
 	var tempC;
 	var tempF;
-
 
   // if user clicks on Celsius button and the button was not selected:
   // add 'selected' class to it, remove 'selected' class from Fahrenheit button, display temperature in Celsius
@@ -14,7 +11,6 @@ $("document").ready(function() {
       $(".temp").text(tempC);
     }
   });
-
 
   // if user clicks on Fahrenheit button and the button was not selected:
   // add 'selected' class to it, remove 'selected' class from Celsius button, display temperature in Fahrenheit
